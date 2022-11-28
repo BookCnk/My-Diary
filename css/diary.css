@@ -1,0 +1,241 @@
+.all-diary{
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-dia-1{
+  border: 3px solid red;
+  padding: 300px;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-image: url("../img/Day1-imgg.jpg");
+  background-position: 50% 75%;
+  filter: grayscale(100%);
+} 
+
+.content-dia-1:hover{
+  transform: scale(1.05);
+  transition: transform .2s; /* Animation */
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(0, 0, 0),
+    0 0 80px rgb(0, 0, 0),
+    0 0 90px rgb(0, 0, 0),
+    0 0 100px rgb(0, 0, 0),
+    0 0 150px rgb(0, 0, 0);
+    transition: 0.5s;
+  filter: grayscale(0);
+}
+
+
+.content-dia-2{
+  border: 3px solid red;
+  padding: 300px;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-image: url("../img/Day2-img.jpg");
+  background-position: 50% 75%;
+  filter: grayscale(100%);
+}
+
+.content-dia-2:hover{
+  transform: scale(1.05);
+  transition: transform .2s; /* Animation */
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(0, 0, 0),
+    0 0 80px rgb(0, 0, 0),
+    0 0 90px rgb(0, 0, 0),
+    0 0 100px rgb(0, 0, 0),
+    0 0 150px rgb(0, 0, 0);
+    transition: 0.5s;
+    filter: grayscale(0);
+}
+
+.content-dia-3{
+  border: 3px solid red;
+  padding: 300px;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-image: url("../img/day3.jpg");
+  background-position: 50% 75%;
+  filter: grayscale(100%);
+}
+
+.content-dia-3:hover{
+  transform: scale(1.05);
+  transition: transform .2s; /* Animation */
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(0, 0, 0),
+    0 0 80px rgb(0, 0, 0),
+    0 0 90px rgb(0, 0, 0),
+    0 0 100px rgb(0, 0, 0),
+    0 0 150px rgb(0, 0, 0);
+    transition: 0.5s;
+    filter: grayscale(0);
+}
+
+.content-dia-4{
+  border: 3px solid red;
+  padding: 300px;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-image: url("../img/DAY4.jpg");
+  background-position: 50% 75%;
+  filter: grayscale(100%);
+}
+
+.content-dia-4:hover{
+  transform: scale(1.05);
+  transition: transform .2s; /* Animation */
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(0, 0, 0),
+    0 0 80px rgb(0, 0, 0),
+    0 0 90px rgb(0, 0, 0),
+    0 0 100px rgb(0, 0, 0),
+    0 0 150px rgb(0, 0, 0);
+    transition: 0.5s;
+    filter: grayscale(0);
+}
+
+.content-dia-5{
+  border: 3px solid red;
+  padding: 300px;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-image: url("../img/Day5.jpg");
+  background-position: 50% 75%;
+  filter: grayscale(100%);
+}
+
+.content-dia-5:hover{
+  transform: scale(1.05);
+  transition: transform .2s; /* Animation */
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(0, 0, 0),
+    0 0 80px rgb(0, 0, 0),
+    0 0 90px rgb(0, 0, 0),
+    0 0 100px rgb(0, 0, 0),
+    0 0 150px rgb(0, 0, 0);
+    transition: 0.5s;
+    filter: grayscale(0);
+}
+
+
+.content-dia-1 h1{
+  /* border: 3px solid rgb(157, 255, 0); */
+  position: relative;
+  bottom: 290px;
+  font-size: 150px;
+} 
+
+.content-dia-2 h1{
+  /* border: 3px solid rgb(157, 255, 0); */
+  position: relative;
+  bottom: 290px;
+  font-size: 150px;
+} 
+
+.content-dia-3 h1{
+  /* border: 3px solid rgb(157, 255, 0); */
+  position: relative;
+  bottom: 290px;
+  font-size: 150px;
+} 
+
+.content-dia-4 h1{
+  /* border: 3px solid rgb(157, 255, 0); */
+  position: relative;
+  bottom: 290px;
+  font-size: 150px;
+} 
+
+.content-dia-5 h1{
+  /* border: 3px solid rgb(157, 255, 0); */
+  position: relative;
+  bottom: 290px;
+  font-size: 150px;
+} 
+
+.img-day1{
+  margin: 50px 120px 50px 120px;
+  display: flex;
+}
+
+.img-day1 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  border-radius: 50px;
+
+}
+
+
+.content-day1{
+  padding:120px 120px 50px 120px;
+  align-items: center;
+}
+
+.content-day2{
+  padding:120px 120px 50px 120px 
+}
+
+.content-day1 p{
+  font-size: 26px;
+  
+}
+
+.footer-dai-1{
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.footer-dai-1 a{
+  padding: 0 30px 0 30px;
+  font-size: 30px;
+}
+
+.footer-dai-1 a:hover{
+  padding: 0 30px 0 30px;
+  font-size: 30px;
+  color: #fff;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+    transition: 0.5s;
+}
+
+
+

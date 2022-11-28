@@ -1,0 +1,22 @@
+.img-me2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vh;
+}
+
+.center {
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 30px;
+}
+
+.h3-topic{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+  
